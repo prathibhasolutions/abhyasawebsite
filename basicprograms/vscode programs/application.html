@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 5 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid p-5 bg-dark text-light font-fansy text-center shadow-lg=dark">
+  <h1>Applications</h1>
+  <p></p><a href="#">Fresher</a>/<a href="#">Experienced</a> candidates</p> 
+</div>
+<button type="button" class="btn btn-primary btn-lg" data-bs-toggle="popover" title="2056"
+ data-bs-content="Data analyst-200,java developer-469
+  front end-567, Testing-450 ,software developer- 370">
+  Recent  Applications
+</button>
+<a href="#">Data Analyst</a>/<a href="#">Java Developer</a>/<a href="#">Front end</a>
+/<a href="#">Testing</a>/<a href="#">Software Developer</a>
+
+<script>
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+return new bootstrap.Popover(popoverTriggerEl)
+})
+</script>
+  
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-sm-3 m-3 p-2 border-outline-dark">
+    <img src="i.jpg" class="rounded-circle" width="80" height="80">
+      <h3>Arjun</h3>
+      <p>Iam Arjun , recently Iam done with my graduation by securing 93%.I have good 
+        knowledge on computer languages.Iam fullyloaded with good communication skills like Data science, 
+        testing ,Machine learning.. etc<a href="#">More details..</a></p>
+        <button type="button" class="btn btn-sm btn-success">Shortlist</button>
+        <button type="button" class="btn btn-sm btn-danger">Reject</button>
+        </div>
+    <div class="col-sm-3 m-3 p-2 border-outline-dark">
+        <img src="j.jpg" class="rounded-circle" width="80" height="80">
+      <h3>Vijay</h3>
+      <p>Iam Vijay, I have completed my MCA in 2022 by securing 80%. I have done project related to 
+        realistate business. I can effectively communicate etc..<a href="#">More details..</a></p>
+        <button type="button" class="btn btn-sm btn-success">Shortlist</button>
+        <button type="button" class="btn btn-sm btn-danger">Reject</button>
+    </div>
+    <div class="col-sm-3 m-3 p-2 border-outline-dark">
+        <img src="b.jpg" class="rounded-circle" width="80" height="80">
+       <h3>Sharvanandh</h3>        
+      <p>I Sharvanandh , I have completed Btech 2023 with an aggregateof 85%. I have project regarding 
+        tele communication , in that project I, have played role as team leader. I also received award for 
+    CR in my classroom ... <a href="#"> More details..</a></p>
+    <button type="button" class="btn btn-sm btn-success">Shortlist</button>
+    <button type="button" class="btn btn-sm btn-danger">Reject</button>
+    </div>
+    <div class="col-sm-3 m-3 p-2 border-outline-dark">
+      <img src="j.jpg" class="rounded-circle" width="80" height="80">
+     <h3>Shravan</h3>        
+    <p>I Sharvanandh , I have completed degree 2023 with an aggregateof 85%. I have project regarding 
+      tele communication , in that project I, have played role as team leader. I also received award for 
+  CR in my classroom ... <a href="#"> More details..</a></p>
+  <button type="button" class="btn btn-sm btn-success">Shortlist</button>
+  <button type="button" class="btn btn-sm btn-danger">Reject</button>
+  </div>
+  <div class="col-sm-3 m-3 p-2 border-outline-dark">
+    <img src="a.jpg" class="rounded-circle" width="80" height="80">
+   <h3>Kushi</h3>        
+  <p>I Kushi , I have completed Btech 2020 with an aggregateof 85%. I have project regarding 
+    tele communication , in that project I, have played role as team leader. I also received award for 
+    CR in my classroom ... <a href="#"> More details..</a></p>
+    <button type="button" class="btn btn-sm btn-success">Shortlist</button>
+    <button type="button" class="btn btn-sm btn-danger">Reject</button>
+         </div>
+         <div class="col-sm-3 m-3 p-2 border-outline-dark">
+          <img src="d.jpg" class="rounded-circle" width="80" height="80">
+         <h3>Shruthi</h3>        
+        <p>I Shruthi , I have completed Btech 2023 with an aggregateof 85%. I have project regarding 
+          tele communication.I also received award for 
+      CR in my classroom ... <a href="#"> More details..</a></p>
+      <button type="button" class="btn btn-sm btn-success">Shortlist</button>
+      <button type="button" class="btn btn-sm btn-danger">Reject</button> 
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
